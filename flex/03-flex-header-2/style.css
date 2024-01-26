@@ -14,12 +14,13 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
 }
 
-.left-side {
+.left-side,
+.right-side {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
 
@@ -30,18 +31,11 @@ body {
   font-style: italic;
 }
 
-.links {
-  gap: 16px;
-}
-
 ul {
   list-style-type: none;
   display: flex;
   padding: 0;
-}
-
-.right-side {
-  display: flex;
+  margin: 0;
   gap: 16px;
 }
 
